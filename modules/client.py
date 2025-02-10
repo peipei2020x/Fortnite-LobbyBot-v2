@@ -400,11 +400,6 @@ class Client(fortnitepy.Client):
         'AthenaToy': None,
         'AthenaConsumableEmote': None
     }
-import fortnitepy
-
-# 利用可能な Platform のリストを表示
-print("Available Platforms:", dir(fortnitepy.Platform))
-
     PLATFORM_CONVERTER = {
         fortnitepy.Platform.WINDOWS: "Windows",
         fortnitepy.Platform.MAC: "Mac",
