@@ -591,7 +591,8 @@ class Bot:
             r"tag='(?P<tag>.+)'>"
         )
 
-        self.http = HTTPClient(aiohttp.ClientSession())
+        loop = asyncio.get_event_loop()
+        self.http = HTTPClient(aiohttp.ClientSession(loop=loop))
         self.webhook = None
         self.discord_client = None
 
