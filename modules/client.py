@@ -400,6 +400,11 @@ class Client(fortnitepy.Client):
         'AthenaToy': None,
         'AthenaConsumableEmote': None
     }
+import fortnitepy
+
+# 利用可能な Platform のリストを表示
+print("Available Platforms:", dir(fortnitepy.Platform))
+
     PLATFORM_CONVERTER = {
         fortnitepy.Platform.WINDOWS: "Windows",
         fortnitepy.Platform.MAC: "Mac",
@@ -407,8 +412,6 @@ class Client(fortnitepy.Client):
         fortnitepy.Platform.PLAYSTATION_5: "PlayStation 5",
         fortnitepy.Platform.XBOX: "Xbox One",
         fortnitepy.Platform.XBOX_X: "Xbox One X",
-        fortnitepy.Platform.XBOX_SERIES_X: "Xbox Series X",
-        fortnitepy.Platform.XBOX_SERIES_S: "Xbox Series S",
         fortnitepy.Platform.SWITCH: "Switch",
         fortnitepy.Platform.IOS: "IOS",
         fortnitepy.Platform.ANDROID: "Android"
