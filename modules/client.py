@@ -436,7 +436,7 @@ class Client(fortnitepy.Client):
             self.config['convert_kanji']
         )
 
-        super().__init__(auth, loop=loop, **kwargs)
+        super().__init__(auth, **kwargs)
 
         self._is_booting = False
         self.booted_at = None
