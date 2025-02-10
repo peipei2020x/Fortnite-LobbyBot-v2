@@ -407,7 +407,6 @@ class Client(fortnitepy.Client):
         fortnitepy.Platform.PLAYSTATION_5: "PlayStation 5",
         fortnitepy.Platform.XBOX: "Xbox One",
         fortnitepy.Platform.XBOX_X: "Xbox One X",
-        fortnitepy.Platform.XBOX_S: "Xbox One S",
         fortnitepy.Platform.XBOX_SERIES_X: "Xbox Series X",
         fortnitepy.Platform.XBOX_SERIES_S: "Xbox Series S",
         fortnitepy.Platform.SWITCH: "Switch",
